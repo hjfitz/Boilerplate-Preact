@@ -1,0 +1,24 @@
+{
+  "name": "Boilerplate-Preact",
+  "version": "0.0.1",
+  "description": "Boilerplate code for Preact.js",
+  "main": "bin/www",
+  "repository": "git@github.com:hjfitz/Boilerplate-Preact.git",
+  "author": "Harry <hfitz83@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "local-env-var": "^1.0.5",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "webpack": "^3.10.0"
+  }
+}
