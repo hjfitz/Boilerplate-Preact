@@ -5,7 +5,7 @@
 
 // main deps
 const http = require('http');
-require('local-env-var')();
+require('local-env-var');
 const app = require('../app');
 
 // default to a given port

@@ -23,6 +23,8 @@ app.use(compression());
 app.use(logger('dev'));
 app.use('/api', api);
 
+app.use('/public', express.static(path.join(pub, 'assets')));
+
 
 // this middleware needs to go last
 app.use('*', (req, res) => res.sendFile(index));
