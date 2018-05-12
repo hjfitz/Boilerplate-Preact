@@ -30,7 +30,7 @@ const babelConfig = {
 };
 
 module.exports = {
-  entry: { bundle: ['./src/client/router.jsx'] },
+  entry: { bundle: ['@babel/polyfill', './src/client/router.jsx'] },
   output: { filename: '[name].js', path: output },
   devtool: 'source-map',
   resolve: {

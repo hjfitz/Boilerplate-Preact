@@ -11,6 +11,6 @@ export default class Params extends Component {
   }
 
   render() {
-    return <h1>params</h1>;
+    return <h1>{this.props.matches.param}</h1>;
   }
 }
